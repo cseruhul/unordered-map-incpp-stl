@@ -19,7 +19,12 @@ using namespace std;
 int main(){
     int i;
 
-    unordered_map<string, int> map;
+    unordered_map<int, string> map;
+    map[5] = "GFG_4";
+    map[8] = "GFG_3";
+    map[2] = "GFG_2";
+    map[3] = "GFG_1";
+    map[1] = "GFG";
 
 
     for(auto x : map){
