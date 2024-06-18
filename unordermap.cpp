@@ -1,4 +1,16 @@
 //Hashmap practice Problem.
+/*
+        For the output
+        key value
+        1   GFG
+        3   GFG_1
+        2   GFG_2
+        8   GFG_3
+        5   GFG_4
+
+*/
+
+
 #include<iostream>
 #include<unordered_map>
 
@@ -8,9 +20,7 @@ int main(){
     int i;
 
     unordered_map<string, int> map;
-    map["Hashmap"] = 10;
-    map["Practice"] = 20;
-    map["Contribute"] = 30;
+
 
     for(auto x : map){
         cout << x.first << " " << x.second << endl;
